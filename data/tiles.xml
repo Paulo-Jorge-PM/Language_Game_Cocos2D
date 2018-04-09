@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<resource>
+ <imageatlas size="32x26" file="images/blocks_tilset.png">
+    <image id="ground" offset="0,0" />
+    <image id="grass" offset="32,0" />
+    <image id="water" offset="64,0" />
+    <image id="rock" offset="96,0" />
+    
+    <image id="ground_side" offset="128,0" />
+    <image id="grass_side" offset="160,0" />
+    <image id="water_side" offset="192,0" />
+    <image id="rock_side" offset="224,0" />
+ </imageatlas>
+ <tileset>
+    <tile id="ground"><image ref="ground" /></tile>
+    <tile id="grass"><image ref="grass" /></tile>
+    <tile id="water"><image ref="water" /></tile>
+    <tile id="rock"><image ref="rock" /></tile>
+    
+    <tile id="ground_side"><image ref="ground_side" /></tile>
+    <tile id="grass_side"><image ref="grass_side" /></tile>
+    <tile id="water_side"><image ref="water_side" /></tile>
+    <tile id="rock_side"><image ref="rock_side" /></tile>
+ </tileset>
+
+<rectmap id="level1" tile_size="32x26" origin="0,0,0">
+  <column> <!-- 1 -->
+    <cell tile="rock_side" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 2 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 3 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property type="bool" name="player_start" value="yes" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 4 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="empty" value="3" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 5 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="animal" value="cow" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 6 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 7 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 8 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass"><property name="gem" value="blue" /></cell>
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 9 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="blue" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="gem" value="blue" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 10 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass"><property name="gem" value="blue" /></cell>
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="empty" value="2" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 11 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 12 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="ground" />
+    <cell tile="ground" />
+    <cell tile="ground" />
+    <cell tile="ground" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 13 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="ground" />
+    <cell tile="water" />
+    <cell tile="water" />
+    <cell tile="ground" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 14 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="ground" />
+    <cell tile="water" />
+    <cell tile="water" />
+    <cell tile="ground" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 15 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="ground" />
+    <cell tile="ground" />
+    <cell tile="ground" />
+    <cell tile="ground" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 16 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="empty" value="1" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass"><property name="obstacle" value="rock" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 17 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 18 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 19 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 20 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 21 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 22 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass"><property name="gem" value="orange" /></cell>
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 23 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 24 -->
+    <cell tile="grass_side" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="grass" />
+    <cell tile="rock" />
+  </column>
+  <column> <!-- 25 -->
+    <cell tile="rock_side" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+    <cell tile="rock" />
+  </column>
+</rectmap>
+</resource>
