@@ -20,9 +20,9 @@ To use this the only requirement is:
 -Cocos2D
 
 To get pyglet just do in the comand line:
-~~~~
+```
 pip install pyglet
-~~~~
+```
 
 The same with Cocos2D:
 ```
