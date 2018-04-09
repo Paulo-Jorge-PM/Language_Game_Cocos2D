@@ -22,8 +22,9 @@ To use this the only requirement is:
 To get pyglet just do in the comand line:
 ```pip install pyglet
 ```
+
 The same with Cocos2D:
-```pip install pyglet
+```pip install cocos2d
 ```
 
 Then just run the file "main.py". 
