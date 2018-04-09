@@ -19,13 +19,9 @@ To use this the only requirement is:
 -Pyglet
 -Cocos2D
 
-To get pyglet just do in the comand line:
-```pip install pyglet
-```
+To get pyglet just do in the comand line:```pip install pyglet```
 
-The same with Cocos2D:
-```pip install cocos2d
-```
+The same with Cocos2D:```pip install cocos2d```
 
 Then just run the file "main.py". 
 
