@@ -381,7 +381,8 @@ class Game(cocos.layer.Layer):
             self.crush_sound.play()
             self.layer_z4.add(explosion)
         
-                
+        #OTIMIZAR! No time e protótipo apenas com uma palavra
+        #Por isso ficou assim, mas devia ser uma função para qualquer palavra
         if obj in self.letters:
             print 'letter:'+self.letters[obj]
             if self.letters[obj] == 'c':
