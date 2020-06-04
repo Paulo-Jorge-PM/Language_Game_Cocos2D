@@ -2,13 +2,13 @@
 
 ![screenshot](http://www.paulojorgepm.net/static/images/language_game.png)
 
-This is only a prototype (made during my Master’s), never finished it. It is the concept of a game with the objective of teaching a new language. It is based on the Snake game, but with words and images, were the user needs to collect letters of words in a foreign language when they catch an object, an animal, etc. When they catch something a full image of the target appears with the complete word and a voice pronouncing it. Rocks served as obstacles, if the user touched them he would lose points. In theory this concept could be used to learn a new language from scratch in a fun way. I had plans to create enemies on screen, power-ups, and a mini-story from level to level, but I never had the time to implement them. One day I would like to finish this project with full features, but for now it serves only as a concept.
+This software is a prototype made for my Master’s degree: a foreign language teaching tool. It is a concept for a pedagogical videogame with the objective of teaching children a foreign language. It is based on the retro Snake mechanics, but with words and images as objectives, were the user needs to collect letters of words in a foreign language when they catch an object, an animal, etc. When they catch for example a “cow”, a full image of it will appear with the complete word letter by letter and a voice pronouncing it, creating a mental association between words, images, sound and written format. Rocks served as obstacles, if the user touched them he would lose points. In theory this concept could be used to learn a new language from scratch in a fun way. I had plans to create enemies on screen, power-ups, and a mini-story from level to level, but I had not yet time to extend the concept. One day I plan to implement this concept in a commercial finished product, but this first version is in open-source serving as a concept for a pedagogical language teaching tool.
 
-Note: originally the rocks would reduce points and an explosion sound/animation would fire, at the time it worked. More than 6 years have passed since then (at the moment it is 2018), and today I tested this with the most recent libraries of Cocos2D and Pyglet, and for some reason when the user touches a stone the game crashes. This is only a concept and I moved on, so will not bug hunt, if I finish it someday I’ll do it, until then don’t crash against the rocks.
+Note: originally the rocks would reduce points and an explosion sound/animation would fire, at the time it worked. More than 6 years have passed since then (at the time of writing this we are in 2018), and today I tested this with the most recent libraries of Cocos2D and Pyglet, and for some reason when the user touches a stone the game crashes. I know the cause (it is a bug OpenGL related) but this is only a concept, a first draft, so will not bug hunt, if I finish it someday I’ll correct it, until then don’t crash against the rocks.
 
 License: you can do anything except make commercial versions out of this concept. For nonprofit objectives this is open-source.
 
-##How to run:
+## How to run:
 If you don't have Python installed simply run the file "main.exe" - I compiled it from the Python source with Pyinstaller: "pyinstaller.exe --onefile --windowed main.py"
 Note: I have not tested it in the .exe format.
 
@@ -29,8 +29,8 @@ pip install cocos2d
 
 Then just run the file "main.py". 
 
-##How to play:
+## How to play:
 Arrow keys (up, right, down, left) control the movement; spacebar makes it run faster; enter pauses the game. Don't touch the rocks; gems give points; catch the little cow sprite and after that a screen will appear with the full word - after that you need to catch the letters in the correct order.
 
-##Contacts:
+## Contacts:
 My Homepage: [www.paulojorgepm.net](http://www.paulojorgepm.net)
