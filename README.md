@@ -1,8 +1,8 @@
 # Game for learning a language [prototype]
 
-![screenshot](http://www.paulojorgepm.net/static/images/language_game.png)
+![screenshot](language_game.png)
 
-![screenshot](http://www.paulojorgepm.net/static/images/print_lang_game2.png)
+![screenshot](print_lang_game2.png)
 
 This software is a prototype made for my Master’s degree: a foreign language teaching tool. It is a concept for a pedagogical videogame with the objective of teaching children a foreign language. It is based on the retro Snake mechanics, but with words and images as objectives, were the user needs to collect letters of words in a foreign language when they catch an object, an animal, etc. When they catch for example a “cow”, a full image of it will appear with the complete word letter by letter and a voice pronouncing it, creating a mental association between words, images, sound and written format. Rocks served as obstacles, if the user touched them he would lose points. In theory this concept could be used to learn a new language from scratch in a fun way. I had plans to create enemies on screen, power-ups, and a mini-story from level to level, but I had not yet time to extend the concept. One day I plan to implement this concept in a commercial finished product, but this first version is in open-source serving as a concept for a pedagogical language teaching tool.
 
